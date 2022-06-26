@@ -1,0 +1,18 @@
+#social-links-wrapper {
+    padding: 25px;
+}
+
+#social-links {
+    padding-left: 0;
+    display: flex;
+}
+
+.social-link-item {
+    width: 35px;
+    display: flex;
+}
+
+.social-link-item-link {
+    text-decoration: none;
+    color: #191919;
+}

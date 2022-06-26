@@ -1,0 +1,33 @@
+#skills-wrapper {
+    width: 440px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-header {
+    color: #ECDBBA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills-tabber {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.skills-tab-item {
+    height: 50px;
+    display: flex;
+}
+
+.skills-tab-item-button {
+    padding: 10px;
+    color: #ECDBBA;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

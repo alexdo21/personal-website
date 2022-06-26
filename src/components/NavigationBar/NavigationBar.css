@@ -1,0 +1,36 @@
+#navbar {
+    min-height: 56px;
+    background-color: black;
+    display: flex;
+}
+
+#navbar-menu {
+    margin: 0;
+    height: 100%;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu-brand {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ECDBBA;
+}
+
+.navbar-menu-item {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ECDBBA;
+}
+
+.navbar-menu-item-link {
+    text-decoration: none;
+    color: #DADBBD;
+}
