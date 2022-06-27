@@ -1,0 +1,31 @@
+#skill-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#skill-bar-label {
+    color: whitesmoke
+}
+
+#skill-bar {
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+#skill-bar-level {
+    width: 100%;
+    line-height: 20px;
+    display: block;
+    position: relative;
+}
+#skill-bar-progress {
+    border-radius: 5px;
+    float: left;
+}
+#skill-bar-progress-label {
+    color: #191919;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+}

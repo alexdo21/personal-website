@@ -1,0 +1,28 @@
+#projects-wrapper {
+    height: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    background-color: #2D4263;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-header {
+    line-height: 100px;
+    color: #191919;
+}
+
+#projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}

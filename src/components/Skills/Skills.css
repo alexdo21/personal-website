@@ -3,13 +3,16 @@
     height: 640px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 #skills-header {
+    padding-top: 30px;
     color: #ECDBBA;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
 
 #skills-tabber {
@@ -30,4 +33,12 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+#skills-content {
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

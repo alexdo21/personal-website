@@ -1,18 +1,16 @@
 #app {
-    margin: auto;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 #content {
-    background-color: white;
-    height: 100%;
+    flex-grow: 1;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     #app {
         height: 100%;
     }
-}
+} */

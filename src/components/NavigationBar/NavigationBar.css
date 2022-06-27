@@ -2,14 +2,19 @@
     min-height: 56px;
     background-color: black;
     display: flex;
+    border-top: 0.1px solid #ECDBBA;
+    border-bottom: 0.1px solid #ECDBBA;
+}
+
+#navbar-content {
+    display: flex;
+    align-items: center;
 }
 
 #navbar-menu {
     margin: 0;
-    height: 100%;
     padding-left: 0px;
     display: flex;
-    align-items: center;
 }
 
 .navbar-menu-brand {

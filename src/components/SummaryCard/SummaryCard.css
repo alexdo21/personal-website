@@ -22,12 +22,13 @@
 }
 
 #summary-text-container {
-    padding: 20px;
+    padding: 15px;
     border-bottom: 1px solid #2D4263;
+    line-height: 20px;
 }
 
 #summary-card-footer {
-    height: 73px;
+    height: 68px;
     display: flex;
     align-items: center;
 }

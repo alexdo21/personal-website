@@ -1,5 +1,5 @@
 #social-links-wrapper {
-    padding: 25px;
+    padding: 15px;
 }
 
 #social-links {
@@ -10,6 +10,7 @@
 .social-link-item {
     width: 35px;
     display: flex;
+    justify-content: center;
 }
 
 .social-link-item-link {
