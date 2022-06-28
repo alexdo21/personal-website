@@ -1,6 +1,33 @@
 #project-card-wrapper {
-    width: 700px;
+    width: 335px;
     height: 500px;
     background-color: whitesmoke;
-    border: 10px solid #C84B31;
+    border: 20px solid #2D4263;
+    border-radius: 10px;
+    outline: 3px dashed gray;
+    outline-offset: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #191919;
+}
+
+#project-card-image-container {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECDBBA;
+    border-bottom: 3px dashed #2D4263;
+}
+
+#project-card-header {
+    line-height: 30px;
+    padding: 20px;
+}
+
+#project-card-description {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
 }

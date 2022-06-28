@@ -7,10 +7,5 @@
 
 #content {
     flex-grow: 1;
+    background-color: #191919;
 }
-
-/* @media (max-width: 1024px) {
-    #app {
-        height: 100%;
-    }
-} */

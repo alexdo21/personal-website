@@ -1,2 +1,3 @@
 import { skills } from "./skills";
-export { skills };
+import { projects } from "./projects";
+export { skills, projects };

@@ -1,19 +1,13 @@
 import React from 'react';
 import { ProjectCard } from '../../components';
+import { projects } from '../../data';
 import "./Projects.css"
 
 function Projects() {
     return (
         <div id="projects-wrapper">
-            <div id="projects-container">
-                <div id="projects-header">
-                    <h1>Projects</h1>
-                </div>
-                <div id="projects-content">
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                </div>
+            <div id="projects-content">
+                {projects.map(project => <ProjectCard project={project}/>)}
             </div>
         </div>
     );
