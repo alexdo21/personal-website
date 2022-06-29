@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavigationBar } from "./components";
 import "./App.css"
-import { Landing, About, Projects, Contact } from "./pages";
+import { Landing, About, Projects, ProjectDetails, Contact } from "./pages";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
             <Route exact path="/" element={<Landing />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/projects" element={<Projects />}/>
+            <Route path="/projects/:name" element={<ProjectDetails />}/>
             <Route path="/contact" element={<Contact />}/>
           </Routes>
         </div>

@@ -20,9 +20,19 @@
     border-bottom: 3px dashed #2D4263;
 }
 
+#project-card-link {
+    text-decoration: none;
+    color: #191919;
+    flex: 1;
+}
+
 #project-card-header {
     line-height: 30px;
     padding: 20px;
+}
+
+#project-card-header:hover {
+    text-decoration: underline;
 }
 
 #project-card-description {

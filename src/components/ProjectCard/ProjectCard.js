@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./ProjectCard.css"
 
 function ProjectCard({project}) {
@@ -10,7 +11,9 @@ function ProjectCard({project}) {
                 </a>
             </div>
             <div id="project-card-header">
-                <h1>{project.title}</h1>
+                <Link id="project-card-link" to={`/projects/${project.title.replace(/\s+/g, '')}`} state={{ rawMarkdown: project.markdown }}>
+                    <h1>{project.title}</h1>
+                </Link>
             </div>
             <div id="project-card-description">
                 {project.description}

@@ -7,7 +7,7 @@ function Projects() {
     return (
         <div id="projects-wrapper">
             <div id="projects-content">
-                {projects.map(project => <ProjectCard project={project}/>)}
+                {projects.map(project => <ProjectCard key={project.title} project={project}/>)}
             </div>
         </div>
     );
