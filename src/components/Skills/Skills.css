@@ -19,6 +19,7 @@
     margin: 0;
     padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -41,4 +42,16 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media (max-width: 500px) {
+    #skills-wrapper {
+        width: 330px;
+        height: 480px;
+        padding-bottom: 300px;
+    }
+
+    .skills-tab-item {
+        height: 37.5px;
+    }
 }

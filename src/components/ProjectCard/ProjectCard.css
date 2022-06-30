@@ -41,3 +41,28 @@
     padding-right: 20px;
     line-height: 25px;
 }
+
+@media (max-width: 500px) {
+    #project-card-wrapper {
+        width: 251.25px;
+        height: 375px;
+        outline-offset: 22.5px;
+    }
+
+    #project-card-image {
+        width: 140.625px;
+        height: 140.625px;
+    }
+
+    #project-card-header {
+        line-height: 22.5px;
+        padding: 15px;
+    }
+
+    #project-card-description {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 18.75px;
+        font-size: 15px;
+    }
+}

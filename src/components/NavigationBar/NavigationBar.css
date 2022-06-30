@@ -1,4 +1,7 @@
 #navbar {
+    position: sticky;
+    top: 0;
+    width: 100vw;
     min-height: 56px;
     background-color: black;
     display: flex;
@@ -7,17 +10,19 @@
 }
 
 #navbar-content {
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
 #navbar-menu {
+    width: 100%;
     margin: 0;
     padding-left: 0px;
     display: flex;
 }
 
-.navbar-menu-brand {
+#navbar-menu-brand {
     display: flex;
     width: 200px;
     height: 30px;
@@ -38,4 +43,25 @@
 .navbar-menu-item-link {
     text-decoration: none;
     color: #DADBBD;
+}
+
+#navbar-menu-icon {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    #navbar-menu-brand {
+        width: 150px;
+        border-right: none;
+    }
+
+    .navbar-menu-item {
+        display: none;
+    }
+
+    #navbar-menu-icon {
+        margin-left: auto;
+        margin-right: 45px;
+        display: flex;
+    }
 }
