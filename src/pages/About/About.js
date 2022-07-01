@@ -13,9 +13,9 @@ function About() {
     }, [setMarkdown])
 
     return (
-        <div id="about-wrapper">
-            <ReactMarkdown children={markdown} />
-        </div>
+        <article id="about-wrapper">
+            <ReactMarkdown children={markdown} linkTarget={"_blank"} />
+        </article>
     );
 }
 

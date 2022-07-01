@@ -16,9 +16,9 @@ function ProjectDetails() {
     }, [setMarkdown])
 
     return (
-        <div id="project-details-wrapper">
-            <ReactMarkdown children={markdown} />
-        </div>
+        <article id="project-details-wrapper">
+            <ReactMarkdown children={markdown} linkTarget={"_blank"} />
+        </article>
     );
 }
 

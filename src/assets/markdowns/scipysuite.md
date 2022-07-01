@@ -133,11 +133,11 @@ Each page is listed below with the shared components it contains:
     - SolveButton
     - Solution
 
-## Latex
+### Latex
 
 The ExpressionLabel and Solution components make use of MathJax from better-react-mathjax to render LaTeX strings. Note that the expression editor in ControlPanel doesn't render LaTeX, but it automatically updates the ExpressionLabel as the user types. This is all made possible by wrapping the entirety of SciPy Web in a MathJaxContext.
 
-## UI & UX
+### UI & UX
 
 Apart from any third-person functional components (i.e MathJax), SciPy Web uses vanilla CSS to implement the entire the design from Figma. Most notably, learning CSS flexbox helped me a lot with development time. SciPy Web is also responsive. It has a collapsible Sidebar component and is designed to be used by devices ranging from small tablets to large monitors (consider using SciPy Mobile for mobile devices!).
 

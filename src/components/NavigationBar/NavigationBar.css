@@ -1,28 +1,15 @@
 #navbar {
     position: sticky;
     top: 0;
-    width: 100vw;
-    min-height: 56px;
+    height: 56px;
     background-color: black;
     display: flex;
+    align-items: center;
     border-top: 0.1px solid #ECDBBA;
     border-bottom: 0.1px solid #ECDBBA;
 }
 
-#navbar-content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-#navbar-menu {
-    width: 100%;
-    margin: 0;
-    padding-left: 0px;
-    display: flex;
-}
-
-#navbar-menu-brand {
+#navbar-brand {
     display: flex;
     width: 200px;
     height: 30px;
@@ -31,7 +18,29 @@
     border-right: 1px solid #ECDBBA;
 }
 
-.navbar-menu-item {
+#navbar-brand-link {
+    text-decoration: none;
+    color: #DADBBD;
+    font-size: large;
+}
+
+#navbar-menu-icon {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ECDBBA;
+    font-size: large;
+    display: none;
+}
+
+#navbar-menu-list {
+    width: 100%;
+    margin: 0;
+    padding-left: 0px;
+    display: flex;
+}
+
+.navbar-menu-list-item {
     display: flex;
     width: 100px;
     height: 30px;
@@ -40,28 +49,51 @@
     border-right: 1px solid #ECDBBA;
 }
 
-.navbar-menu-item-link {
+.navbar-menu-list-item-link {
     text-decoration: none;
     color: #DADBBD;
 }
 
-#navbar-menu-icon {
-    display: none;
-}
-
 @media (max-width: 700px) {
-    #navbar-menu-brand {
+    #navbar-brand {
         width: 150px;
         border-right: none;
     }
 
-    .navbar-menu-item {
+    #navbar-menu {
         display: none;
+    }
+
+    #navbar-menu.extended {
+        display: block;
+    }
+
+    #navbar-menu-list {
+        flex-direction: column;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 56px);
+        background-color: black;
+        border-top: 0.1px solid #ECDBBA;
+    }
+
+    .navbar-menu-list-item {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 100%;
+        border-right: none;
+    }
+
+    .navbar-menu-list-item:hover, .navbar-menu-list-item-link:hover {
+        text-decoration: underline;
+        background-color: #191919;
     }
 
     #navbar-menu-icon {
         margin-left: auto;
-        margin-right: 45px;
+        margin-right: 25px;
         display: flex;
     }
 }
