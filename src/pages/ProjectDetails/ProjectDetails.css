@@ -13,8 +13,12 @@
 
 #project-details-wrapper h2 {
     text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
 }
 
 #project-details-wrapper a {
-    color: whitesmoke;
+    color: #C84B31;
+    text-decoration: none;
 }

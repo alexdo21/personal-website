@@ -13,5 +13,6 @@
 @media (max-height: 700px) {
     #landing-wrapper {
         margin-top: 50px;
+        margin-bottom: 50px;
     }
 }

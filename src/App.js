@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { NavigationBar } from "./components";
 import "./App.css"
-import { Landing, About, Projects, ProjectDetails, Contact } from "./pages";
+import { Landing, About, Projects, ProjectDetails, Contact, NotFound } from "./pages";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
             <Route path="/projects" element={<Projects />}/>
             <Route path="/projects/:name" element={<ProjectDetails />}/>
             <Route path="/contact" element={<Contact />}/>
+            <Route path="*" element={<NotFound />}/>
           </Routes>
         </div>
       </div>

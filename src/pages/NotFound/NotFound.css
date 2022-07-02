@@ -1,0 +1,13 @@
+#not-found-wrapper {
+    flex-grow: 1;
+    color: #ECDBBA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#not-found-wrapper a {
+    color: #ECDBBA;
+    text-decoration: underline;
+}
