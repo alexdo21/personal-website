@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b38af8a.css",
-    "main.js": "/static/js/main.fea07e04.js",
-    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
-    "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
-    "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
-    "static/media/scipy-suite-logo.png": "/static/media/scipy-suite-logo.f72958ff7020f7fdd947.png",
-    "static/media/stocktracker-logo.png": "/static/media/stocktracker-logo.bc508f911b6f83a29fcd.png",
-    "static/media/mixtech.md": "/static/media/mixtech.31f7d3ddf2dd15c68647.md",
-    "static/media/scipysuite.md": "/static/media/scipysuite.112914ff89eed395bd03.md",
-    "static/media/about.md": "/static/media/about.01ae767bc6dee302d761.md",
-    "static/media/stocktracker.md": "/static/media/stocktracker.3e0dd7b387862913dd0b.md",
-    "index.html": "/index.html",
-    "main.0b38af8a.css.map": "/static/css/main.0b38af8a.css.map",
-    "main.fea07e04.js.map": "/static/js/main.fea07e04.js.map",
-    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/personal-website/static/css/main.0b38af8a.css",
+    "main.js": "/personal-website/static/js/main.9849afe0.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/Me.jpeg": "/personal-website/static/media/Me.f1e6fc408c189e79235d.jpeg",
+    "static/media/mixtech-logo.png": "/personal-website/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
+    "static/media/scipy-suite-logo.png": "/personal-website/static/media/scipy-suite-logo.f72958ff7020f7fdd947.png",
+    "static/media/stocktracker-logo.png": "/personal-website/static/media/stocktracker-logo.bc508f911b6f83a29fcd.png",
+    "static/media/mixtech.md": "/personal-website/static/media/mixtech.31f7d3ddf2dd15c68647.md",
+    "static/media/scipysuite.md": "/personal-website/static/media/scipysuite.112914ff89eed395bd03.md",
+    "static/media/about.md": "/personal-website/static/media/about.01ae767bc6dee302d761.md",
+    "static/media/stocktracker.md": "/personal-website/static/media/stocktracker.3e0dd7b387862913dd0b.md",
+    "index.html": "/personal-website/index.html",
+    "main.0b38af8a.css.map": "/personal-website/static/css/main.0b38af8a.css.map",
+    "main.9849afe0.js.map": "/personal-website/static/js/main.9849afe0.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b38af8a.css",
-    "static/js/main.fea07e04.js"
+    "static/js/main.9849afe0.js"
   ]
 }
