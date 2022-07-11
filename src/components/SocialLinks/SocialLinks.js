@@ -27,7 +27,7 @@ function SocialLinks() {
                     </a>
                 </li>
                 <li className="social-link-item">
-                    <a className="social-link-item-link" target="_blank" rel="noopener noreferrer" href="mailto:alexndo221@gmail.com">
+                    <a className="social-link-item-link" target="_blank" rel="noopener noreferrer" href="mailto:contact@alexdo.io">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                 </li>

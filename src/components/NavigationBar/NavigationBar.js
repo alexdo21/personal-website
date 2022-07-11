@@ -47,7 +47,7 @@ function NavigationBar() {
                         <Link className="navbar-menu-list-item-link" to={"/projects"} onClick={handleLinkPressed}>Projects</Link>
                     </li>
                     <li className="navbar-menu-list-item">
-                        <a className="navbar-menu-list-item-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1OH8C0pCeH73o2-gO-PcSHMBwcFwxTaXm/view?usp=sharing" onClick={handleLinkPressed}>Resume</a>
+                        <a className="navbar-menu-list-item-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1QEC5FfwR9VUR_SCf6BboNa45Q4C43Dms/view?usp=sharing" onClick={handleLinkPressed}>Resume</a>
                     </li>
                     <li className="navbar-menu-list-item">
                         <Link className="navbar-menu-list-item-link" to={"/contact"} onClick={handleLinkPressed}>Contact</Link>
