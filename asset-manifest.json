@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.441ce970.css",
-    "main.js": "/static/js/main.b1329a33.js",
+    "main.css": "/static/css/main.cf0bd4d4.css",
+    "main.js": "/static/js/main.9cb39f9b.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
     "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
     "static/media/scipy-suite-logo.png": "/static/media/scipy-suite-logo.f72958ff7020f7fdd947.png",
     "static/media/stocktracker-logo.png": "/static/media/stocktracker-logo.bc508f911b6f83a29fcd.png",
     "static/media/mixtech.md": "/static/media/mixtech.6214e639af727757e674.md",
-    "static/media/scipysuite.md": "/static/media/scipysuite.98bc0d7b2e36dd33da2c.md",
+    "static/media/scipysuite.md": "/static/media/scipysuite.e86ba59b9aeacf4beb11.md",
     "static/media/about.md": "/static/media/about.fbbb907701d8a0ed2331.md",
     "static/media/stocktracker.md": "/static/media/stocktracker.f4817833914ba4817290.md",
     "index.html": "/index.html",
-    "main.441ce970.css.map": "/static/css/main.441ce970.css.map",
-    "main.b1329a33.js.map": "/static/js/main.b1329a33.js.map",
+    "main.cf0bd4d4.css.map": "/static/css/main.cf0bd4d4.css.map",
+    "main.9cb39f9b.js.map": "/static/js/main.9cb39f9b.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.441ce970.css",
-    "static/js/main.b1329a33.js"
+    "static/css/main.cf0bd4d4.css",
+    "static/js/main.9cb39f9b.js"
   ]
 }
