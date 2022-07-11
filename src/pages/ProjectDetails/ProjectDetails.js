@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown'
-import { useLocation } from 'react-router-dom';
+import { MixTechMD, SciPySuiteMD, StocktrackerMD } from '../../assets';
+import { useParams } from 'react-router-dom';
 import "./ProjectDetails.css"
+
+const getRawMarkdown = (name) => {
+    switch (name) {
+        case "MixTech":
+            return MixTechMD
+        case "SciPySuite":
+            return SciPySuiteMD
+        case "Stocktracker":
+            return StocktrackerMD
+        default:
+            return null
+    }
+}
 
 function ProjectDetails() {
     const [markdown, setMarkdown] = React.useState(null)
 
-    const location = useLocation()
-    const { rawMarkdown } = location.state
+    const { name } = useParams()
 
     React.useState(() => {
+        const rawMarkdown = getRawMarkdown(name)
         fetch(rawMarkdown)
         .then(res => res.text())
         .then(text => setMarkdown(text))

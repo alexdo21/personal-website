@@ -34,7 +34,7 @@ function Contact() {
                 </div>
                 <div className="form-group">
                     <label>Email</label>
-                    <input type="email" name="email" placeholder="Your email address" required />
+                    <input type="email" name="email" placeholder="Your email address." required />
                 </div>
                 <div className="form-group">
                     <label>Subject</label>

@@ -23,7 +23,6 @@ function NavigationBar() {
             }
         } else {
             setIsMenuExtended(true)
-            window.scrollTo(0, 0)
             for (const element of document.querySelectorAll("#skill-bar-level")) {
                 element.style.zIndex = "-1"
             }

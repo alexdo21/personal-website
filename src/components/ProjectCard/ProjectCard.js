@@ -11,7 +11,7 @@ function ProjectCard({project}) {
                 </a>
             </div>
             <div id="project-card-header">
-                <Link id="project-card-link" to={`/projects/${project.title.replace(/\s+/g, '')}`} state={{ rawMarkdown: project.markdown }}>
+                <Link id="project-card-link" to={`/projects/${project.title.replace(/\s+/g, '')}`}>
                     <h1>{project.title}</h1>
                 </Link>
             </div>

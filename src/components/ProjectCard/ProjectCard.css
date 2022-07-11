@@ -5,7 +5,7 @@
     border: 20px solid #2D4263;
     border-radius: 10px;
     outline: 3px dashed gray;
-    outline-offset: 30px;
+    outline-offset: 20px;
     display: flex;
     flex-direction: column;
     color: #191919;
