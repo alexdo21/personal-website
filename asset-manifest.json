@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf0bd4d4.css",
-    "main.js": "/static/js/main.397da758.js",
+    "main.css": "/static/css/main.441ce970.css",
+    "main.js": "/static/js/main.b1329a33.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
     "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
@@ -12,12 +12,12 @@
     "static/media/about.md": "/static/media/about.fbbb907701d8a0ed2331.md",
     "static/media/stocktracker.md": "/static/media/stocktracker.f4817833914ba4817290.md",
     "index.html": "/index.html",
-    "main.cf0bd4d4.css.map": "/static/css/main.cf0bd4d4.css.map",
-    "main.397da758.js.map": "/static/js/main.397da758.js.map",
+    "main.441ce970.css.map": "/static/css/main.441ce970.css.map",
+    "main.b1329a33.js.map": "/static/js/main.b1329a33.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf0bd4d4.css",
-    "static/js/main.397da758.js"
+    "static/css/main.441ce970.css",
+    "static/js/main.b1329a33.js"
   ]
 }
