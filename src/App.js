@@ -5,7 +5,7 @@ import { Landing, About, Projects, ProjectDetails, Contact, NotFound } from "./p
 
 function App() {
   return (
-    <BrowserRouter basename="/personal-website" >
+    <BrowserRouter>
       <div id="app">
         <NavigationBar />
         <div id="content">
