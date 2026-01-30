@@ -22,11 +22,11 @@ const skills = {
         },
         {
             name: "C++",
-            level: 2
+            level: 3
         },
         {
             name: "SQL",
-            level: 2
+            level: 3
         }
     ],
     1: [
@@ -77,6 +77,10 @@ const skills = {
         {
             name: "Spanish",
             level: 2
+        },
+        {
+            name: "Mandarin Chinese",
+            level: 1
         }
     ]
 }
