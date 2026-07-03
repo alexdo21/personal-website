@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf0bd4d4.css",
-    "main.js": "/static/js/main.421cdf4e.js",
+    "main.js": "/static/js/main.154bcb1a.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
     "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
@@ -14,11 +14,11 @@
     "index.html": "/index.html",
     "static/media/empty.md": "/static/media/empty.a45cf8fcc4de7da93f27.md",
     "main.cf0bd4d4.css.map": "/static/css/main.cf0bd4d4.css.map",
-    "main.421cdf4e.js.map": "/static/js/main.421cdf4e.js.map",
+    "main.154bcb1a.js.map": "/static/js/main.154bcb1a.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf0bd4d4.css",
-    "static/js/main.421cdf4e.js"
+    "static/js/main.154bcb1a.js"
   ]
 }
