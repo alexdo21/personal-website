@@ -11,7 +11,7 @@ function SummaryCard() {
             </div>
             <div id="summary-text-container">
                 Hi I'm Alex.
-                I recently graduated from UW-Madison and currently am a Software Engineer.
+                I graduated from UW-Madison and currently am a Software Engineer.
                 I mainly work on web and mobile full-stack applications and am constantly seeking to learn different technologies in the field.
                 Outside of full stack, I like to apply my programming skills to my passions and interests.
                 Right now, I am focused on exploring the world of Natural Language Processing, Signal Processing, Scientific Computing and Game Development.

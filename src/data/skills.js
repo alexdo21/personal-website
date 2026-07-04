@@ -9,7 +9,11 @@ const skills = {
             level: 5
         },
         {
-            name: "JavaScript",
+            name: "Kotlin",
+            level: 4
+        },
+        {
+            name: "JavaScript/TypeScript",
             level: 4
         },
         {
@@ -17,16 +21,12 @@ const skills = {
             level: 3
         },
         {
-            name: "C",
+            name: "C/C++",
             level: 3
         },
         {
-            name: "C++",
-            level: 3
-        },
-        {
-            name: "SQL",
-            level: 3
+            name: "Go",
+            level: 1
         }
     ],
     1: [
