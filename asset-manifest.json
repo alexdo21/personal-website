@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.cf0bd4d4.css",
-    "main.js": "/static/js/main.154bcb1a.js",
+    "main.js": "/static/js/main.947f2dd1.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
     "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
+    "static/media/hanvietdictionary-logo.png": "/static/media/hanvietdictionary-logo.68cd642320971bd061fb.png",
     "static/media/scipy-suite-logo.png": "/static/media/scipy-suite-logo.f72958ff7020f7fdd947.png",
     "static/media/stocktracker-logo.png": "/static/media/stocktracker-logo.bc508f911b6f83a29fcd.png",
     "static/media/mixtech.md": "/static/media/mixtech.6214e639af727757e674.md",
@@ -12,13 +13,14 @@
     "static/media/about.md": "/static/media/about.cc9b3a6e2b7d713e9455.md",
     "static/media/stocktracker.md": "/static/media/stocktracker.f4817833914ba4817290.md",
     "index.html": "/index.html",
+    "static/media/hanvietdictionary.md": "/static/media/hanvietdictionary.7c905fadb9af9441aa03.md",
     "static/media/empty.md": "/static/media/empty.a45cf8fcc4de7da93f27.md",
     "main.cf0bd4d4.css.map": "/static/css/main.cf0bd4d4.css.map",
-    "main.154bcb1a.js.map": "/static/js/main.154bcb1a.js.map",
+    "main.947f2dd1.js.map": "/static/js/main.947f2dd1.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf0bd4d4.css",
-    "static/js/main.154bcb1a.js"
+    "static/js/main.947f2dd1.js"
   ]
 }
