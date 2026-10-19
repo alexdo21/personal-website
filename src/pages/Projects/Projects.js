@@ -1,6 +1,5 @@
-import React from 'react';
-import { ProjectCard } from '../../components';
-import { projects } from '../../data';
+import { ProjectCard } from "../../components";
+import { projects } from "../../data";
 import "./Projects.css"
 
 function Projects() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import "./ProjectCard.css"
 
@@ -11,7 +10,7 @@ function ProjectCard({project}) {
                 </a>
             </div>
             <div id="project-card-header">
-                <Link id="project-card-link" to={`/projects/${project.title.replace(/\s+/g, '')}`}>
+                <Link id="project-card-link" to={`/projects/${project.pathName}`}>
                     <h1>{project.title}</h1>
                 </Link>
             </div>

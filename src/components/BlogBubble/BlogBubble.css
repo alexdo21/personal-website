@@ -1,0 +1,12 @@
+#blog-bubble-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    outline: 3px dashed gray;
+    border-radius: 3px;
+    color: white;
+}
+
+#blog-bubble-link {
+    color: white;
+}

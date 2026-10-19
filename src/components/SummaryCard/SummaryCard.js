@@ -1,6 +1,5 @@
 import { Me } from "../../assets"
 import { SocialLinks } from '../../components';
-import React from 'react';
 import "./SummaryCard.css"
 
 function SummaryCard() {

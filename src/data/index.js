@@ -1,3 +1,5 @@
 import { skills } from "./skills";
 import { projects } from "./projects";
-export { skills, projects };
+import { blogPosts } from "./blogposts";
+
+export { skills, projects, blogPosts };
