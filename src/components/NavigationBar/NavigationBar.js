@@ -49,7 +49,7 @@ function NavigationBar() {
                         <Link className="navbar-menu-list-item-link" to={"/blog"} onClick={handleLinkPressed}>Blog</Link>
                     </li>
                     <li className="navbar-menu-list-item">
-                        <a className="navbar-menu-list-item-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1i9veCutKSDi2e_rW9GwqlxPlTtMcgszt/view?usp=sharing" onClick={handleLinkPressed}>Resume</a>
+                        <a className="navbar-menu-list-item-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1GMoFhiJjR06gnTNistQ-rIT5pcunUTaw/view?usp=sharing" onClick={handleLinkPressed}>Resume</a>
                     </li>
                     <li className="navbar-menu-list-item">
                         <Link className="navbar-menu-list-item-link" to={"/contact"} onClick={handleLinkPressed}>Contact</Link>
