@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6f01cd65.css",
-    "main.js": "/static/js/main.4a2abf81.js",
+    "main.js": "/static/js/main.bb6a5083.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Me.jpeg": "/static/media/Me.f1e6fc408c189e79235d.jpeg",
     "static/media/mixtech-logo.png": "/static/media/mixtech-logo.51f51a004a135f9d1b87.png",
@@ -17,11 +17,11 @@
     "static/media/hanvietdictionary.md": "/static/media/hanvietdictionary.4290b5a821e672de612e.md",
     "static/media/empty.md": "/static/media/empty.a45cf8fcc4de7da93f27.md",
     "main.6f01cd65.css.map": "/static/css/main.6f01cd65.css.map",
-    "main.4a2abf81.js.map": "/static/js/main.4a2abf81.js.map",
+    "main.bb6a5083.js.map": "/static/js/main.bb6a5083.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f01cd65.css",
-    "static/js/main.4a2abf81.js"
+    "static/js/main.bb6a5083.js"
   ]
 }
